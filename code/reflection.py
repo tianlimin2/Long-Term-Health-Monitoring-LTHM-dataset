@@ -1,11 +1,9 @@
 
 """reflection.py
 
-1. Process the user's conversation data set into memory nodes
+1. Memory reflection
 
-2. Memory reflection
-
-3. Update to the file
+2. Update to the file
 """
 
 import json
@@ -18,8 +16,8 @@ import numpy as np
 openai.api_type = "azure"
 openai.api_version = '2023-05-15'
 deployment_name = 'gpt-4'
-openai.api_key = "ed4bec37b4ad4c55936bee64a302350e"
-openai.api_base = "https://healingangels.openai.azure.com/"
+openai.api_key = "your_api_key_here"
+openai.api_base = "your_api_base_here"
 
 client_chat = AzureOpenAI(
     api_key=openai.api_key,
@@ -30,8 +28,8 @@ client_chat = AzureOpenAI(
 # OpenAI API Configuration  - embedding
 embedding_model = 'text-embedding-ada-002'
 embedding_deployment = 'text-embedding-ada-002'
-embedding_api_base = 'https://webgpt.openai.azure.com'
-embedding_api_key = '0853dbeb2f0f46089839b1fde7d3d86e'
+embedding_api_base = 'your_api_base_here'
+embedding_api_key = 'your_api_key_here'
 
 client_embedding = AzureOpenAI(
   api_key=embedding_api_key,
@@ -87,7 +85,6 @@ def generate_focal_points(memory, n=10, deployment_name="gpt-4"):
     for node in recent_nodes:
         prompt += f"{node['description']}\n"
 
-    # print("Generated Prompt for Focal Points:", prompt)  # print Generated Prompt 
 
     response = client_chat.chat.completions.create(
         model=deployment_name,
@@ -102,7 +99,6 @@ def generate_focal_points(memory, n=10, deployment_name="gpt-4"):
 
     questions_text = response.choices[0].message.content.strip()
     questions = questions_text.split('\n') if questions_text else []
-    #print("Generated Questions:", questions)  # print Generated Questions
     return questions
 
 # Relevance function
@@ -398,7 +394,7 @@ def create_single_concept_node(memory, embeddings, question, insight, node_count
 
 def store_each_question_insight(memory, embeddings, questions, insights_and_evidence):
     node_count = len(memory['nodes'])  # Start from the existing number of nodes if adding to memory
-    type_count = 0  # Assuming type_count isn't critical and can start from 0 for simplicity
+    type_count = 0  
 
     # Iterate over each question and its corresponding insights
     for question, insight in insights_and_evidence.items():
@@ -407,7 +403,7 @@ def store_each_question_insight(memory, embeddings, questions, insights_and_evid
 
         # Increment counters for nodes and types
         node_count += 1
-        type_count += 1  # Update this as needed if it has a specific meaning in your system
+        type_count += 1  
 
     # Save all changes after processing all questions and insights
     save_memory(memory, embeddings, 'reflection_nodes.json', 'reflection_embeddings.json')

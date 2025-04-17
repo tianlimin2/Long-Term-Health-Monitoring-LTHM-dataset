@@ -22,12 +22,6 @@ rouge = Rouge()
 # Calculate average ROUGE scores for ROUGE-1, ROUGE-2, and ROUGE-L
 scores = rouge.get_scores(hyps, refs, avg=True)
 
-# Print the average ROUGE scores
-#print("Average ROUGE Scores:")
-#print(json.dumps(scores, ensure_ascii=False, indent=4))
-
-# Save results to a JSON file
-
 # Path of JSON file for saving results
 save_file_path = 'rouge_scores.json'
 

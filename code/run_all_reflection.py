@@ -1,7 +1,7 @@
 import subprocess
 
 # List of Python files to run in sequence
-files_to_run = ['response_reflection.py', 'rouge_evaluation.py']
+files_to_run = ['memorystorage.py', 'reflection.py', 'response.py', 'rouge_evaluation.py']
 
 for file in files_to_run:
     print(f"Running {file}...")

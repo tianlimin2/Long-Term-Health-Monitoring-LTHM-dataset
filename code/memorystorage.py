@@ -12,8 +12,8 @@ from openai import AzureOpenAI
 openai.api_type = "azure"
 openai.api_version = '2023-05-15'
 deployment_name = 'gpt-4'
-openai.api_key = "ed4bec37b4ad4c55936bee64a302350e"
-openai.api_base = "https://healingangels.openai.azure.com/"
+openai.api_key = "your_api_key_here"  # Replace with your actual API key
+openai.api_base = "your_api_base_here"  # Replace with your actual API base URL
 
 client_chat = AzureOpenAI(
     api_key=openai.api_key,
@@ -24,8 +24,8 @@ client_chat = AzureOpenAI(
 # OpenAI API Configuration  - embedding
 embedding_model = 'text-embedding-ada-002'
 embedding_deployment = 'text-embedding-ada-002'
-embedding_api_base = 'https://webgpt.openai.azure.com'
-embedding_api_key = '0853dbeb2f0f46089839b1fde7d3d86e'
+embedding_api_base = 'your_api_base_here'  # Replace with your actual API base URL
+embedding_api_key = 'your_api_key_here'  # Replace with your actual API key
 
 client_embedding = AzureOpenAI(
   api_key=embedding_api_key,
