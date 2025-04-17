@@ -196,7 +196,7 @@ If you use this code or dataset in your research, please cite:
 ```
 @inproceedings{tian2025leveraging,
   title={Leveraging the Long-Term Health Monitoring Dataset for Personalized Healthcare: A Large Language Model Approach},
-  author={Tian, Limin and Shen, Ma, Jiaxin},
+  author={Tian, Limin and Ma, Jiaxin},
   booktitle={Proceedings of the IEEE Engineering in Medicine and Biology Conference (EMBC)},
   year={2025}
 }
