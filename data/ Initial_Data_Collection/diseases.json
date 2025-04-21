@@ -1,0 +1,46 @@
+{
+    "diseases": [
+      {
+        "id": "D001",
+        "name": "Diabetes"
+      },
+      {
+        "id": "D002",
+        "name": "Hypertension"
+      },
+      {
+        "id": "D003",
+        "name": "Metabolic syndrome"
+      },
+      {
+        "id": "D004",
+        "name": "Skin disorders"
+      },
+      {
+        "id": "D005",
+        "name": "Chronic Kidney Disease"
+      },
+      {
+        "id": "D006",
+        "name": "Chronic hepatitis"
+      },
+      {
+        "id": "D007",
+        "name": "Heart Failure"
+      },
+      {
+        "id": "D008",
+        "name": "Chronic bone and joint diseases"
+      },
+      {
+        "id": "D009",
+        "name": "Thyroid disease"
+      },
+      {
+        "id": "D010",
+        "name": "Asthma"
+      }
+
+ 
+    ]
+}

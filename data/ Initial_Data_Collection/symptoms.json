@@ -1,0 +1,154 @@
+{
+"symptoms": [
+  {
+    "id": "S001",
+    "name": "Increased thirst",
+    "description": "Excessive thirst or drinking (polydipsia), from Greek 'poludípsios' meaning 'very thirsty'. A nonspecific symptom in various medical disorders, often characteristic of diabetes mellitus and frequently occurs as an initial symptom. Commonly observed in poorly controlled diabetes, sometimes resulting from low adherence to anti-diabetic medication."
+  },
+  {
+    "id": "S002",
+    "name": "Frequent urination",
+    "description": "The need to urinate more often than usual (also called pollakiuria). Normal frequency varies by age: 8-14 times daily for young children, 6-12 times for older children, and 4-6 times for teenagers. Common causes include urinary tract infections in women and children, and enlarged prostate in older men."
+  },
+  {
+    "id": "S003",
+    "name": "Anorexia",
+    "description": "Decreased or loss of appetite, sometimes unnoticed until weight loss occurs. Can range from not feeling hungry to experiencing nausea at the thought of eating."
+  },
+  {
+    "id": "S004",
+    "name": "Nausea",
+    "description": "A diffuse sensation of unease and discomfort, often perceived as an urge to vomit. Can be debilitating if prolonged and is typically felt in the chest, abdomen, or back of the throat."
+  },
+  {
+    "id": "S005",
+    "name": "Headache",
+    "description": "Pain in the face, head, or neck, also known as cephalalgia. It can manifest as migraine, tension-type headache, or cluster headache. Severe headaches are associated with an increased risk of depression."
+  },
+  {
+    "id": "S006",
+    "name": "Dizziness",
+    "description": "An imprecise term referring to a sense of disorientation in space, vertigo, lightheadedness, disequilibrium, or non-specific feelings such as giddiness. May indicate various underlying conditions depending on the specific type of sensation."
+  },
+  {
+    "id": "S007",
+    "name": "Tinnitus",
+    "description": "A condition where a person hears ringing or other sounds when no corresponding external sound is present. From Latin 'tinnire' meaning 'to ring'. Can interfere with concentration and is sometimes associated with anxiety and depression."
+  },
+  {
+    "id": "S008",
+    "name": "Heart attack",
+    "description": "Characterized by chest pain or discomfort in the center or left side that may feel like pressure, squeezing, or pain; weakness, light-headedness, or cold sweats; pain in jaw, neck, back, arms, or shoulders; and shortness of breath which may occur before or with chest discomfort."
+  },
+  {
+    "id": "S009",
+    "name": "Arrhythmia",
+    "description": "A problem with heart rate or rhythm where the heart beats too quickly, too slowly, or irregularly. Symptoms include fluttering feelings in the chest (palpitations), dizziness, and fainting. Can lead to serious complications if untreated, including stroke, heart failure, or cardiac arrest."
+  },
+  {
+    "id": "S010",
+    "name": "Heart failure",
+    "description": "Characterized by shortness of breath during activities or when lying down, fatigue, swelling of the feet, ankles, legs, abdomen, or neck veins, and unexplained weight gain due to fluid retention. Results from the heart's inability to pump blood efficiently."
+  },
+  {
+      "id": "S011",
+      "name": "Very hungry",
+      "description": "Also known as polyphagia or hyperphagia, an abnormally strong, incessant sensation of hunger or desire to eat often leading to overeating. Unlike normal hunger, polyphagia does not subside after eating and often leads to rapid intake of excessive quantities of food. It is frequently a result of abnormal blood glucose levels and, along with polydipsia and polyuria, is one of the '3 Ps' commonly associated with uncontrolled diabetes mellitus."
+    },
+    {
+      "id": "S012",
+      "name": "Fatigue",
+      "description": "A state of tiredness (which is not sleepiness), exhaustion or loss of energy. Medical fatigue is sometimes associated with autoimmune disease, organ failure, chronic pain conditions, mood disorders, heart disease, infectious diseases, and post-infectious-disease states. In up to a third of primary care cases, no medical or psychiatric diagnosis is found. Differs from normal tiredness following activity by significantly impairing the individual's ability to function in their normal capacity."
+    },
+    {
+      "id": "S013",
+      "name": "Cough",
+      "description": "A sudden expulsion of air through the large breathing passages which helps clear them of fluids, irritants, foreign particles and microbes. Frequent coughing usually indicates the presence of a disease and can be triggered by respiratory tract infections, choking, smoking, air pollution, asthma, GERD, post-nasal drip, chronic bronchitis, lung tumors, heart failure and certain medications. Complications can be acute (syncope, insomnia, vomiting) or chronic (hernias, rib fractures)."
+    },
+    {
+      "id": "S014",
+      "name": "Wheezing",
+      "description": "A clinical symptom characterized by a continuous, coarse, whistling sound produced in the respiratory airways during breathing. Occurs when part of the respiratory tree is narrowed or obstructed, or when airflow velocity within the respiratory tree is heightened. The most common cause of recurrent wheezing is asthma, though it can also be a symptom of lung cancer, congestive heart failure, and certain types of heart diseases."
+    },
+    {
+      "id": "S015",
+      "name": "Chest tightness",
+      "description": "An uncomfortable feeling of pressure, pain, or discomfort in the chest. Often associated with shortness of breath (dyspnea), which is an uncomfortable feeling of not being able to breathe well enough. Can present as a subjective experience of breathing discomfort with qualitatively distinct sensations that vary in intensity, including effort/work to breathe, chest tightness, and 'air hunger' (the feeling of not enough oxygen)."
+    },
+    {
+        "id": "S016",
+        "name": "Cold sensitivity",
+        "description": "Unusual discomfort felt when in a cool environment. May be a symptom of hypothyroidism, anemia, low body weight, iron deficiency, vitamin B12 deficiency, fevers, fibromyalgia or vasoconstriction. There may also be differences in people in the expression of uncoupling proteins, affecting their amount of thermogenesis. Psychology may also play a factor in perceived temperature. Possible causes include Non-freezing cold injury."
+      },
+      {
+        "id": "S017",
+        "name": "Weight loss",
+        "description": "A reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue). Can occur unintentionally because of malnourishment or an underlying disease, or from a conscious effort to improve an actual or perceived overweight or obese state. 'Unexplained' weight loss that is not caused by reduction in calorific intake or increase in exercise is called cachexia and may be a symptom of a serious medical condition."
+      },
+      {
+        "id": "S018",
+        "name": "Mood swings",
+        "description": "Extreme or sudden changes of mood. Such changes can play a positive or a disruptive part in promoting problem solving and in producing flexible forward planning. When mood swings are severe, they may be categorized as part of a mental illness, such as bipolar disorder, where erratic and disruptive mood swings are a defining feature. Different from emotions or affect, mood is associated with emotional responses without knowing the reason (being unaware)."
+      },
+      {
+        "id": "S019",
+        "name": "Constipation",
+        "description": "A bowel dysfunction that makes bowel movements infrequent or hard to pass. The stool is often hard and dry. Other symptoms may include abdominal pain, bloating, and feeling as if one has not completely passed the bowel movement. Complications may include hemorrhoids, anal fissure or fecal impaction. The normal frequency of bowel movements in adults is between three per day and three per week."
+      },
+      {
+        "id": "S020",
+        "name": "Diarrhea",
+        "description": "The condition of having at least three loose, liquid, or watery bowel movements in a day. It often lasts for a few days and can result in dehydration due to fluid loss. Signs of dehydration often begin with loss of the normal stretchiness of the skin and irritable behavior. This can progress to decreased urination, loss of skin color, a fast heart rate, and a decrease in responsiveness as it becomes more severe."
+      },
+      {
+          "id": "S021",
+          "name": "Blurry vision",
+          "description": "An ocular symptom where vision becomes less precise and there is added difficulty to resolve fine details. Temporary blurred vision may involve dry eyes, eye infections, alcohol poisoning, hypoglycemia, or low blood pressure. Other medical conditions may include refractive errors such as myopia, high hypermetropia, and astigmatism, amblyopia, presbyopia, pseudomyopia, diabetes, cataract, pernicious anemia, vitamin B12 deficiency, thiamine deficiency, glaucoma, retinopathy, hypervitaminosis A, migraine, sjögren's syndrome, floater, macular degeneration, and can be a sign of stroke or brain tumor."
+        },
+        {
+            "id": "S022",
+            "name": "Jaundice",
+            "description": "A yellowish or greenish pigmentation of the skin and sclera due to high bilirubin levels. Jaundice in adults is typically a sign indicating the presence of underlying diseases involving abnormal heme metabolism, liver dysfunction, or biliary-tract obstruction. The most commonly associated symptoms are itchiness, pale feces, and dark urine. Normal levels of bilirubin in blood are below 1.0 mg/dl, while levels over 2–3 mg/dl typically result in jaundice."
+          },
+          {
+            "id": "S023",
+            "name": "Atrial fibrillation",
+            "description": "An abnormal heart rhythm (arrhythmia) characterized by rapid and irregular beating of the atrial chambers of the heart. It often begins as short periods of abnormal beating, which become longer or continuous over time. Episodes can be asymptomatic or may involve heart palpitations, fainting, lightheadedness, loss of consciousness, or shortness of breath. Atrial fibrillation is associated with an increased risk of heart failure, dementia, and stroke."
+          },
+          {
+            "id": "S024",
+            "name": "Stupor",
+            "description": "The lack of critical mental function and a level of consciousness in which an affected person is almost entirely unresponsive and responds only to intense stimuli such as pain. The word derives from the Latin 'stupor' meaning 'numbness, insensibility'. Represents a severely impaired state of consciousness where normal cognitive functioning is significantly diminished."
+          },
+          {
+            "id": "S025",
+            "name": "Visual impairment",
+            "description": "The partial or total inability of visual perception. Without treatment such as corrective eyewear, assistive devices, and medical treatment, visual impairment may cause difficulties with normal daily tasks, including reading and walking. The terms low vision and blindness are often used for levels of impairment which are difficult or impossible to correct and significantly impact daily life."
+          },
+          {
+            "id": "S026",
+            "name": "Abdominal obesity",
+            "description": "An excessive concentration of visceral fat around the stomach and abdomen to such an extent that it is likely to harm health. Strongly linked to cardiovascular disease, Alzheimer's disease, and other metabolic and vascular diseases. Visceral fat, central abdominal fat, and waist circumference show a strong association with type 2 diabetes. This body type is also known as 'apple shaped,' with a protruding abdomen."
+          },
+          {
+            "id": "S027",
+            "name": "Overweight",
+            "description": "Having more body fat than is optimally healthy. Especially common where food supplies are plentiful and lifestyles are sedentary. A healthy body requires a minimum amount of fat, but the accumulation of too much storage fat can impair movement, flexibility, and alter the appearance of the body. At a basic level, treatments include diet and exercise, with more extensive treatment potentially involving support groups and mental health treatment."
+          },
+          {
+            "id": "S028",
+            "name": "Cholestatic pruritus",
+            "description": "The sensation of itch due to nearly any liver disease. Most commonly associated with primary biliary cholangitis, primary sclerosing cholangitis, obstructive choledocholithiasis, carcinoma of the bile duct, cholestasis, and chronic hepatitis C viral infection and other forms of viral hepatitis."
+          },
+          {
+            "id": "S029",
+            "name": "Choluria",
+            "description": "A symptom defining an abnormal darkness of the urine, mainly due to a high level of conjugated bilirubin. Common in liver diseases, such as hepatitis and cirrhosis. Can be described as dark or brown urine, often referred to as the color of Coca-Cola. The presence of choluria is useful to distinguish if somebody with jaundice has liver disease (direct hyperbilirubinaemia) or haemolysis (indirect hyperbilirubinaemia)."
+          },
+          {
+            "id": "S030",
+            "name": "Polyuria",
+            "description": "Excessive or an abnormally large production or passage of urine (greater than 2.5-3L over 24 hours in adults). Often appears in conjunction with polydipsia (increased thirst), though it is possible to have one without the other. Primary polydipsia may lead to polyuria. Usually viewed as a symptom or sign of another disorder rather than a disease by itself."
+          }        
+]
+}
